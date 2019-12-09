@@ -1,0 +1,152 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <TabHost android:id="@android:id/tabhost"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TabWidget android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@android:id/tabs" />
+
+            <FrameLayout android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@android:id/tabcontent" >
+
+                <LinearLayout android:id="@+id/tab1"
+                    android:orientation="vertical"
+                    android:background="@drawable/madrid"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:textColor="@android:color/white"
+                        android:textSize="40dp"
+                        android:text="¡Bienvenidos a Madrid!" />
+
+                    <ScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/textView9"
+                            android:layout_width="450dp"
+                            android:layout_height="48dp"
+                            android:fontFamily="@font/allan_bold"
+                            android:text="Madrid, la capital de España desde 1562, Su altitud, al estar sobre una meseta,y la cercanía a las montañas que la rodean, influencian su clima, caracterizado por sus veranos calientes e inviernos relativamente fríos.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                 Como de ella se espera, es ciertamente una ciudad de gran e impresionante monumentalidad, que entre sus puntos culminantes cuenta con un centro histórico peculiarísimo, construido en la época en que la dinastía Habsburgo reinaba en España, de ahí el nombre de 'El Madrid de los Austrias', y como no, el Museo del Prado, una de las más importantes pinacotecas del mundo.
+     Aunque ya sólo por su oferta cultural merece la visita, es Madrid también una capital excepcionalmente viva. Su rutilante vida nocturna, con multitud de bares, pubs, café-teatros y discotecas abiertos hasta bien entrada la mañana, la han hecho famosa desde hace muchos años. No le sorprenda por tanto, verse envuelto en un atasco de tráfico a las 4 de la mañana del domingo, y tenga la seguridad de que la mayoría de la gente en ese momento no va camino del trabajo.
+
+¿Qué más se podría decir en pocas palabras acerca de una de las grandes capitales de Europa?.
+
+En las páginas que siguen intentaremos informarles sobre todo aquello que pueda ser de utilidad para que su visita a Madrid sea inolvidable."
+
+
+                            android:textColor="@android:color/black"
+                            android:textSize="25dp" />
+
+
+
+                   </ScrollView>
+                </LinearLayout>
+
+                <LinearLayout android:id="@+id/tab2"
+                    android:orientation="vertical"
+                    android:background="@drawable/navidad"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="wrap_content"
+
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/allan_bold"
+                        android:text="¡Ven y disfruta una navidad en familia!"
+                        android:textColor="@android:color/white"
+                        android:textSize="40dp" />
+
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="wrap_content"
+
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/allan_bold"
+                        android:text="¡TE ESPERAMOS!"
+                        android:textColor="@android:color/white"
+                        android:textSize="40dp" />
+
+                    <TextView
+                        android:id="@+id/textViewv"
+                        android:layout_width="wrap_content"
+
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/allan_bold"
+                        android:text="¡POR TAN SOLO 200$!"
+                        android:textColor="@android:color/white"
+                        android:textSize="40dp" />
+                </LinearLayout>
+
+                <LinearLayout android:id="@+id/tab3"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+                    <TextView android:id="@+id/Contacto"
+                        android:text="Oficinas Madrid"
+                        android:fontFamily="@font/allan_bold"
+                        android:textSize="40dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView android:id="@+id/direc"
+                        android:text="En C/apruebame por favor con 10"
+                        android:fontFamily="@font/allan_bold"
+                        android:textSize="40dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView android:id="@+id/textView3"
+                        android:text="Telefono"
+                        android:fontFamily="@font/allan_bold"
+                        android:textSize="40dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView android:id="@+id/textView4"
+                        android:text="555-555-555"
+                        android:fontFamily="@font/allan_bold"
+                        android:textSize="40dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+    </TabHost>
+
+</LinearLayout>

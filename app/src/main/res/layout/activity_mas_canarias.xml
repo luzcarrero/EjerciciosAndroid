@@ -1,0 +1,144 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <TabHost android:id="@android:id/tabhost"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TabWidget android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@android:id/tabs" />
+
+            <FrameLayout android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@android:id/tabcontent" >
+
+                <LinearLayout
+                    android:id="@+id/tab1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/white"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/bienvenida"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/allan_bold"
+                        android:text="Estas participando en el sorteo de un viaje ¡TODO INCLUIDO!"
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="40dp" />
+                    <TextView
+                        android:id="@+id/nom"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:fontFamily="@font/allan_bold"
+                        android:text="Canarias"
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="40dp" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:background="@drawable/canarias">
+
+                    </ImageView>
+
+                    <ScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/textView9"
+                            android:layout_width="450dp"
+                            android:layout_height="48dp"
+                            android:fontFamily="@font/allan_bold"
+                            android:text="Canarias es un archipiélago situado en el océano Atlántico que conforma una comunidad autónoma española con estatus de nacionalidad histórica.7​8​ Es, además, una de las regiones ultraperiféricas de la Unión Europea.9​ En el ámbito espacial se compone de ocho islas, cinco islotes, ocho roques y el mar. Políticamente el archipiélago se compone de siete islas con administración propia y una isla —La Graciosa— que está en trámites de ser gestionada en forma de pedanía.nota 2​ Las siete islas con administración propia son, por un lado, El Hierro, La Gomera, La Palma y Tenerife, que constituyen la provincia de Santa Cruz de Tenerife, y, por otro lado, Fuerteventura, Gran Canaria, Lanzarote y La Graciosa que constituyen la provincia de Las Palmas.nota 3​ A estas ocho islas se le suman, por un lado, los islotes deshabitados de Montaña Clara, Alegranza, Roque del Este y Roque del Oeste, que, junto con la isla de La Graciosa, forman el archipiélago Chinijo, y, por otro lado, con el islote de Lobos, todos estos pertenecientes a la provincia de Las Palmas.nota 4​ Además, a las ocho islas y cinco islotes se añaden una serie de roques adyacentes (los de Salmor, Fasnia, Bonanza, Garachico y Anaga) situados en la provincia de Santa Cruz de Tenerife; el Roque de Gando y el Farallón de Sardina situados en Gran Canaria, y el islote de La Santa situado en Lanzarote. Por último, esta comunidad autónoma se completa con las aguas canarias, que son un especial ámbito marítimo de la comunidad autónoma y están integradas dentro del contorno perimetral que surge de la unión de los puntos extremos más salientes de las islas e islotes,1​ siendo la única comunidad autónoma de España que incluye al mar como parte de su superficie.12​El archipiélago está situado en el noroeste de África, cerca de las costas del sur de Marruecos y del norte del Sahara, entre las coordenadas 27º 37' y 29º 25' de latitud norte y 13º 20' y 18º 10' de longitud oeste.13​ Canarias utiliza durante el invierno boreal la hora de Greenwich (UTC±0) y durante el verano boreal una más (UTC+1), con una hora de diferencia respecto al resto del Estado. La isla de Fuerteventura dista unos 95 km de la costa africana. La distancia a la masa continental europea es de unos 940 km —del islote de Alegranza a la punta de Sagres (Portugal)—. Por su situación geográfica, Canarias es la región más austral y occidental del Estado español. Históricamente, Canarias ha sido considerada un puente entre tres continentes; África, América y Europa. "
+                            android:textColor="@android:color/black"
+                            android:textSize="25dp" />
+
+
+                    </ScrollView>
+                </LinearLayout>
+
+                <LinearLayout android:id="@+id/tab2"
+                    android:orientation="vertical"
+                    android:background="@drawable/canarias"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="wrap_content"
+
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/allan_bold"
+                        android:text="¡Ven y disfruta un verano en familia!"
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="40dp" />
+
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="wrap_content"
+
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/allan_bold"
+                        android:text="¡TE ESPERAMOS!"
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="40dp" />
+
+                    <TextView
+                        android:id="@+id/textViewv"
+                        android:layout_width="wrap_content"
+
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/allan_bold"
+                        android:text="¡POR TAN SOLO 200$!"
+                        android:textColor="@android:color/white"
+                        android:textSize="40dp" />
+                </LinearLayout>
+
+                <LinearLayout android:id="@+id/tab3"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+                    <TextView android:id="@+id/Contacto"
+                        android:text="Oficinas Madrid"
+                        android:fontFamily="@font/allan_bold"
+                        android:textSize="40dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView android:id="@+id/direc"
+                        android:text="En C/apruebame por favor con 10"
+                        android:fontFamily="@font/allan_bold"
+                        android:textSize="40dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView android:id="@+id/textView3"
+                        android:text="Telefono"
+                        android:fontFamily="@font/allan_bold"
+                        android:textSize="40dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView android:id="@+id/textView4"
+                        android:text="555-555-555"
+                        android:fontFamily="@font/allan_bold"
+                        android:textSize="40dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+    </TabHost>
+
+</LinearLayout>
